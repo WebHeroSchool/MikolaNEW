@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'pt_serif';
+    src: url('/fonts/ptserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .main-content__title{font-family: 'Roboto', sans-serif;}
 body{margin: 0}
 .wrapper {
@@ -7,7 +13,8 @@ body{margin: 0}
     display: flex;
   justify-content: space-between;}
 .logo{
-  padding: 40px 0;}
+  padding: 40px 0;
+  font-family:'pt_serif',arial,helvetica,sans-serif;}
   .menu{
     display: flex;
   align-items: center;}
