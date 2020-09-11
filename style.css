@@ -4,14 +4,17 @@ body{margin: 0}
   margin: auto;
   width: 80%}
   .header{
+    padding: 40px 0;
     display: flex;
   justify-content: space-between;}
 .logo{
-  padding: 40px 0;
-  font-family:'pt_serif',arial,helvetica,sans-serif;
-font-weight: bold;
-font-size: 24px;
-line-height: 31px;}
+//padding: 40px 0;
+//font:bold 24px/31px pt_serif,arial,helvetica,sans-serif;
+width: 190px;
+height: 35px;
+border: dashed 1px red;
+background: red;
+background: url 'img/app.creation.svg';}
   .menu{
     display: flex;
   align-items: center;}
