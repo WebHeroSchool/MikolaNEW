@@ -5,7 +5,8 @@ body{margin: 0}
   .header{
     padding: 40px 0;
     display: flex;
-  justify-content: space-between;}
+  justify-content: space-between;
+margin-bottom: 100px;}
 .logo{
 width: 190px;
 height: 35px;
@@ -52,9 +53,11 @@ transition: opacity .5s}
       transition:opacity.5s;
     }
 .menu__item:hover:after,.menu__item_active:after{opacity:1}
-.main{padding-top: 100px;
-padding-right:63%;
-background: url('img/mainimg.svg');}
+.main{
+padding:0 63% 100px 0;
+background: url('img/mainimg.svg');
+background-repeat: no-repeat;
+background-position: top right;}
 .main__title{font-family: 'PT serif', sans-serif, arial,helvetica;
 font-style: normal;
 font-weight: bold;
@@ -71,3 +74,5 @@ font-size: 18px;
 line-height: 21px;
 color: #000;
 margin:0 0 41px 0;}
+.main__title-text_highlight{background: #ECF3FF;
+}
