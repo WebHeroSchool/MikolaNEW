@@ -65,6 +65,37 @@ background: url('img/app.creation.svg');
 .menu__item:hover:after,.menu__item_active:after {
   opacity:1;
 }
+.menu__mobile_button {
+  display: block;
+  content: "";
+  width: 25px;
+  height: 4px;
+  position: relative;
+  margin:auto;
+  top: 50%;
+  margin-top: -2px;
+  background: #0056EC;
+}
+.menu__mobile_button::after {
+  display: block;
+  content: "";
+  width: 25px;
+  height: 4px;
+  position: relative;
+  margin:auto;
+  transform: translateY(6px);
+  background: #0056EC;
+}
+.menu__mobile_button::before {
+  display: block;
+  content: "";
+  width: 25px;
+  height: 4px;
+  position: relative;
+  margin: auto;
+  background: #0056EC;
+  transform: translateY(-10px);
+}
 .main {
   padding:0 60% 100px 0;
   background: url('img/mainimg.svg');
@@ -110,19 +141,7 @@ background: url('img/app.creation.svg');
 	box-shadow: inset 0 0 50px 3px  #EF832B;
 }
   @media (max-width:768px) {
-  input:checked~ .menu {
-  left: 0;
-  top: 0;
-  position:absolute;
-  background-color: white;
-  display:flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-}
+    .menu {display: none;}
 .menu__item {
   position: relative;
   display:block;
@@ -133,12 +152,6 @@ background: url('img/app.creation.svg');
     .wrapper {
       margin: auto;
       width: 45%;
-    }
-    .menu__mobile {
-      display: block;
-    }
-    .menu{
-      display: none;
     }
     .logo {
       width: 40px;
@@ -174,6 +187,19 @@ background: url('img/app.creation.svg');
     .main__button{font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
       width: 178px; height: 20px;
       padding: 18px 17px;}
+      input:checked ~ .menu {
+      left: 0;
+      top: 0;
+      position:absolute;
+      background-color: green;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      transition: 2s;
+    }
+    .menu{transition: 3s;}
   }
 @media (max-width:1170px) and (min-width:769px) {
   .wrapper {
@@ -295,34 +321,3 @@ background: url('img/app.creation.svg');
     margin-left: 945px;
   }
   }
-.menu__mobile_button {
-  display: block;
-  content: "";
-  width: 25px;
-  height: 4px;
-  position: relative;
-  margin:auto;
-  top: 50%;
-  margin-top: -2px;
-  background: #0056EC;
-}
-.menu__mobile_button::after {
-  display: block;
-  content: "";
-  width: 25px;
-  height: 4px;
-  position: relative;
-  margin:auto;
-  transform: translateY(6px);
-  background: #0056EC;
-}
-.menu__mobile_button::before {
-  display: block;
-  content: "";
-  width: 25px;
-  height: 4px;
-  position: relative;
-  margin: auto;
-  background: #0056EC;
-  transform: translateY(-10px);
-}
