@@ -192,23 +192,28 @@ background: url('img/app.creation.svg');
       margin-right: 5%;
     }
     .menu{
-      display: none;
-      width: 0%;
-      height: 0%;
-  transition: 2s;}
+  visibility: hidden;
+      width:0px;
+      height:0px;
+      transition-property: : width, height;
+      transition-duration: .6s
+    }
       input:checked ~ .menu {
+        visibility: visible;
       left: 0;
       top: 0;
       position:absolute;
-      background-color: green;
+      background-color: white;
       display:flex;
       flex-direction: column;
       justify-content: center;
       width:100%;
       height:100%;
-
     }
-
+#chosen:checked ~ .menu__mobile_button::after
+{
+  transform: rotate(45deg);
+}
   }
 @media (max-width:1170px) and (min-width:769px) {
   .wrapper {
