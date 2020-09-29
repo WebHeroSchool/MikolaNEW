@@ -147,6 +147,7 @@ background: url('img/app.creation.svg');
   text-align: center;
   margin-right: 0;
   font:normal 500 50px/70px 'Roboto', arial, helvetica, sans-serif;
+  padding: 5% 0px 5% 0px;
 }
     .wrapper {
       margin: auto;
@@ -161,14 +162,13 @@ background: url('img/app.creation.svg');
       padding: 20px 0;
     }
     .main {
-      padding: 67% 0 0;
+      padding-top: 67%;
+      padding-right: 0;
       background-size: 79%;
       background-position: top center;
       text-align: center;
     }
-    .menu__item {
-      padding: 5% 0px 5% 0px;
-    }
+
     .menu__item_active::after {
       display: none;
     }
@@ -176,7 +176,7 @@ background: url('img/app.creation.svg');
       margin-bottom: 33px;
       padding-top: 17px;
       font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
-  }
+     }
     .main__description {
       margin-bottom: 23px;
       font: 500 16px/20px 'Roboto', arial, helvetica, sans-serif;
@@ -192,12 +192,11 @@ background: url('img/app.creation.svg');
       margin-right: 5%;
     }
     .menu{
-      left: 50%;
-      top: 50%;
-  display: none;
+      position: relative;
+      visibility: hidden;
       width:0px;
       height:0px;
-      transition-property: height;
+      transition-property:height;
       transition-duration: .6s
     }
       input:checked ~ .menu {
@@ -211,11 +210,12 @@ background: url('img/app.creation.svg');
       justify-content: center;
       width:100%;
       height:100%;
+
     }
-#chosen:checked ~ .menu__mobile_button
-{
-  transform: rotate(45deg);
-}
+    .menu__mobile_button:active{
+      transform: rotate(45deg);
+    }
+
   }
 @media (max-width:1170px) and (min-width:769px) {
   .wrapper {
