@@ -81,9 +81,9 @@ background: url('img/app.creation.svg');
   content: "";
   width: 25px;
   height: 4px;
-  position: relative;
+  position: absolute;
   margin:auto;
-  transform: translateY(6px);
+  transform: translateY(10px);
   background: #0056EC;
 }
 .menu__mobile_button::before {
@@ -91,7 +91,7 @@ background: url('img/app.creation.svg');
   content: "";
   width: 25px;
   height: 4px;
-  position: relative;
+  position: absolute;
   margin: auto;
   background: #0056EC;
   transform: translateY(-10px);
@@ -210,7 +210,7 @@ background: url('img/app.creation.svg');
       width:100%;
       height:100%;
     }
-#chosen:checked ~ .menu__mobile_button::after
+input:checked ~ .menu__mobile_button > span::after
 {
   transform: rotate(45deg);
 }
