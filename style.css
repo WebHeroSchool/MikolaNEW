@@ -192,6 +192,8 @@ background: url('img/app.creation.svg');
       margin-right: 5%;
     }
     .menu{
+      left: 50%;
+      top: 50%;
   visibility: hidden;
       width:0px;
       height:0px;
