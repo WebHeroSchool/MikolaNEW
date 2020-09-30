@@ -192,15 +192,17 @@ background: url('img/app.creation.svg');
       margin-right: 5%;
     }
     .menu{
+      display: none;
       position: relative;
-      visibility: hidden;
+      /*visibility: hidden;*/
       width:0px;
       height:0px;
-      transition-property:height;
+      transition-property:width, height ;
       transition-duration: .6s
     }
       input:checked ~ .menu {
-        visibility: visible;
+      /*  transform: rotateY(100%);*/
+        /*visibility: visible;*/
       left: 0;
       top: 0;
       position:absolute;
