@@ -316,11 +316,11 @@ background: white;
     margin-top: 130px;
     background-position: top right;
     background-size: 50%;
-  }
+   }
   .main__title {
     margin-bottom: 7.5%;
     font:normal bold 66px/87px 'pt_serif', arial, helvetica, sans-serif;
-}
+   }
   .main__description {
     margin-right: 17%;
     margin-bottom: 8%;
