@@ -146,7 +146,7 @@ background: url('img/app.creation.svg');
   display:block;
   text-align: center;
   margin-right: 0;
-  font:normal 500 50px/70px 'Roboto', arial, helvetica, sans-serif;
+  font:normal 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
   padding: 5% 0px 5% 0px;
    }
     .wrapper {
@@ -156,6 +156,7 @@ background: url('img/app.creation.svg');
     .logo {
       width: 40px;
       height: 35px;
+      margin-left: 4%;
       }
     .header {
       margin-bottom: 13px;
@@ -174,23 +175,26 @@ background: url('img/app.creation.svg');
     .main__title {
       margin-bottom: 33px;
       padding-top: 17px;
+      padding-left: 6px;
       font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
        }
     .main__description {
-      margin-bottom: 23px;
-      font: 500 16px/20px 'Roboto', arial, helvetica, sans-serif;
+      margin-bottom: 25px;
+      font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
       padding: 0 14%;
       }
-    .main__button{font: 500 14px/12px 'Roboto', arial, helvetica, sans-serif;
-      width: 175px; height: 9px;
-      padding: 18px 17px;
+    .main__button{font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+      width: 175px; height: 14px;
+      padding: 15px 17px;
+      text-align: initial;
       }
     .menu__mobile{
       margin-top: 20px;
-      margin-right: 3%;
+      margin-right: 4%;
         }
     .menu{
       /*display: none;*/
+      left: -500%;
       position: absolute;
       visibility: hidden;
       width:0px;
@@ -229,16 +233,17 @@ background: white;
     margin: auto;
   }
   .menu {
+    padding-top: 4px;
     margin-left: 27%;
   }
   .menu__mobile {
     display: none;
   }
   .header {
-    margin-bottom: 9%;
+    margin-bottom: 80px;
   }
   .menu__item {
-    font: 500 14px/21px "Roboto",arial,helvetica,sans-serif;
+    font: 500 14px/16px "Roboto",arial,helvetica,sans-serif;
   }
    .menu__item:last-child {
      margin-right:0px;
@@ -249,7 +254,7 @@ background: white;
     background-size: 55%;
   }
   .main__title {
-    margin-bottom: 40px;
+    margin-bottom: 41px;
     font:normal bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
 }
   .main__description {
@@ -259,31 +264,35 @@ background: white;
   .main__button {
     font:normal 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
     width: 179px;
+    padding: 15px 16px;
   }
 }
 @media (max-width:1366px) and (min-width:1171px) {
   .wrapper {
     margin: auto;
-    width: 75%;
-    padding-left: 8.5%;
+    width: 68%;
+  }
+  .logo {
+    margin-top: 4px;
   }
   .header {
-    margin-bottom: 10%; padding: 38px 0px;
+    margin-bottom: 9%; padding: 38px 0px;
   }
   .main {
-    padding: 0 55% 17% 0;
+    padding: 0 58% 17% 0;
     background-position: top right;
     background-size: 55%;
   }
   .menu {
-    padding-top: 6px;
+    padding-top: 10px;
   }
   .menu__item {
-    margin-right: 23px;
-    font: 500 15px/21px "Roboto",arial,helvetica,sans-serif;
+    margin-right: 26px;
+    font: 500 14px/16px "Roboto",arial,helvetica,sans-serif;
   }
   .main__title {
-    margin-bottom: 40px;
+    padding-top: 15px;
+    margin-bottom: 38px;
     font:normal bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
 }
   .main__description {
@@ -295,7 +304,7 @@ background: white;
     width: 178px; height: 17px;
 }
    .menu__item:last-child {
-     margin-right: 51px;
+     margin-right: 3px;
    }
    .menu__mobile {
      display: none;
@@ -307,33 +316,37 @@ background: white;
       width: 80%;
     }
   .header {
+    margin-left: 4px;
     margin-bottom: 132px;
-    padding:35px 0;
+    padding:40px 0;
   }
   .main {
-    padding: 4.6% 65% 200px 0;
+    padding: 3.6% 65% 200px 0;
     margin-right: 16px;
     margin-top: 130px;
     background-position: top right;
     background-size: 50%;
+    margin-left: 3px;
    }
   .main__title {
-    margin-bottom: 7.5%;
+    padding-top: 14px;
+    margin-bottom: 6.5%;
     font:normal bold 66px/87px 'pt_serif', arial, helvetica, sans-serif;
    }
   .main__description {
-    margin-right: 17%;
-    margin-bottom: 8%;
+    margin-right: 16%;
+    margin-bottom: 42px;
     font:normal 300 22px/26px 'Roboto', arial, helvetica, sans-serif;
   }
   .main__button {
+    padding-top: 17px;
     padding-left: 4%;
     font:normal 300 18px/24px 'Roboto', arial, helvetica, sans-serif;
-    width: 241px;
-    height: 30px;
+    width: 235px;
+    height: 29px;
   }
   .menu__item:last-child {
-    margin-right:-11px;
+    margin-right:-29px;
   }
   .menu__mobile {
     display: none;
