@@ -23,10 +23,12 @@ body {
   height: 35px;
   background: url('img/app.creation.svg');
 }
+
 .menu {
   display: flex;
   align-items: center;
 }
+
 .menu__item {
     position: relative;
     margin-right:26px;
