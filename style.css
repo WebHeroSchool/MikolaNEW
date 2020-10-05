@@ -190,7 +190,6 @@ body {
     margin-bottom: 13px;
     padding: 20px 0;
   }
-  
   .main {
     padding-top: 69%;
     padding-right: 0;
@@ -198,14 +197,16 @@ body {
     background-position: top center;
     text-align: center;
   }
+
   .menu__item_active::after {
     display: none;
   }
+
   .main__title {
-     margin-bottom: 33px;
-     padding-top: 17px;
-     padding-left: 6px;
-     font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
+    margin-bottom: 33px;
+    padding-top: 17px;
+    padding-left: 6px;
+    font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
   }
   .main__description {
       margin-bottom: 25px;
