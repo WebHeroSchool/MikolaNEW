@@ -114,22 +114,23 @@ body {
   background: #0056ec;
   transform: translateY(-8px);
 }
+
 .main {
-   padding:0 60% 100px 0;
-   background: url('img/mainimg.svg');
-   background-repeat: no-repeat;
-   background-position: top right;
+  padding:0 60% 100px 0;
+  background: url('img/mainimg.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 .main__title {
-   font-family: 'PT serif', sans-serif, arial,helvetica;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 50px;
-   display:inline-block;
-   line-height: 66px;
-   align-items: center;
-   color: #000;
-   margin:0 0 40px 0;
+  font-family: 'PT serif', sans-serif, arial, helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  display:inline-block;
+  line-height: 66px;
+  align-items: center;
+  color: #000;
+  margin:0 0 40px 0;
 }
 .main__description {
    font-family: "Roboto", sans-serif;
