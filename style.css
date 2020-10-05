@@ -208,10 +208,11 @@ body {
     padding-left: 6px;
     font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
   }
+
   .main__description {
-      margin-bottom: 25px;
-      font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
-      padding: 0 14%;
+    margin-bottom: 25px;
+    font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    padding: 0 14%;
   }
   .main__button {
      font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
@@ -219,19 +220,20 @@ body {
      padding: 15px 17px;
      text-align: initial;
   }
+
   .menu__mobile {
       margin-top: 20px;
       margin-right: 4%;
   }
   .menu {
-      /*display: none;*/
-      left: -500%;
-      position: absolute;
-      visibility: hidden;
-      width:0px;
-      height:0px;
-      transition-property: width, height ;
-      transition-duration: .6s
+    /*display: none;*/
+    left: -500%;
+    position: absolute;
+    visibility: hidden;
+    width:0px;
+    height:0px;
+    transition-property: width, height ;
+    transition-duration: .6s
   }
   input:checked ~ .menu {
       /* transform: rotateY(100%);*/
