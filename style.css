@@ -15,9 +15,9 @@ body {
     margin-bottom: 100px;
 }
 .logo{
-  width: 190px;
-  height: 35px;
-  background: url('img/app.creation.svg');
+    width: 190px;
+    height: 35px;
+    background: url('img/app.creation.svg');
 }
 .menu {
   display: flex;
