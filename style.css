@@ -67,7 +67,7 @@ body {
     opacity:0;
     transition: opacity.5s;
 }
-.menu__item:hover:after,
+.menu__item:hover:after
 .menu__item_active:after {
   opacity:1;
 }
