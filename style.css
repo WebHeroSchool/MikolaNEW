@@ -56,7 +56,7 @@ body {
   height: 3px;
   background: blue;
 }
-.menu__item:after {
+.menu__item::after {
     position: absolute;
     display: block;
     content: '';
@@ -99,7 +99,7 @@ body {
    height: 4px;
    position: absolute;
    margin: auto;
-   background: #0056EC;
+   background: #0056ec;
    transform: translateY(-8px);
 }
 .main {
