@@ -312,7 +312,7 @@ body {
   }
   .menu__item:last-child {
      margin-right: 3px;
-   }
+  }
   .menu__mobile {
      display: none;
   }
