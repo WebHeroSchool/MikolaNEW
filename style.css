@@ -4,10 +4,10 @@ body {
 #chosen {
   display: none;
 }
- .wrapper {
+.wrapper {
   margin: auto;
   width: 80%;
- }
+}
  .header {
     padding: 40px 0;
     display: flex;
