@@ -145,7 +145,7 @@ body {
 }
 
 .main__title-text_highlight {
-   background:#c8dbfb;
+  background:#c8dbfb;
 }
 
 .main__button {
@@ -160,33 +160,37 @@ body {
 }
 
 .main__button:hover {
-   background:rgba(0,0,0,0);
-	 color: #3a7999;
-	 box-shadow: inset 0 0 50px 3px  #ef832b;
+  background: rgba(0,0,0,0);
+  color: #3a7999;
+  box-shadow: inset 0 0 50px 3px  #ef832b;
 }
 
 @media (max-width:768px) {
   .menu__item {
     position: relative;
-    display:block;
+    display: block;
     text-align: center;
     margin-right: 0;
-    font:normal 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
+    font: normal 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
     padding: 5% 0px 5% 0px;
   }
+
   .wrapper {
     margin: auto;
     width: 94%;
   }
+
   .logo {
     width: 40px;
     height: 35px;
     margin-left: 4%;
   }
+
   .header {
     margin-bottom: 13px;
     padding: 20px 0;
   }
+  
   .main {
     padding-top: 69%;
     padding-right: 0;
