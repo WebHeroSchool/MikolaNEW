@@ -94,13 +94,14 @@ body {
   margin-top: -2px;
   background: #0056ec;
 }
+
 .menu__mobile_button::after {
   display: block;
   content: "";
   width: 25px;
   height: 4px;
   position: absolute;
-  margin:auto;
+  margin: auto;
   transform: translateY(8px);
   background: #0056ec;
 }
@@ -128,7 +129,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
-  display:inline-block;
+  display: inline-block;
   line-height: 66px;
   align-items: center;
   color: #000;
@@ -146,7 +147,7 @@ body {
 }
 
 .main__title-text_highlight {
-  background:#c8dbfb;
+  background: #c8dbfb;
 }
 
 .main__button {
