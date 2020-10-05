@@ -81,16 +81,17 @@ body {
 .menu__item_active::after {
   opacity: 1;
 }
+
 .menu__mobile_button {
-   display: block;
-   content: "";
-   width: 25px;
-   height: 4px;
-   position: relative;
-   margin:auto;
-   top: 50%;
-   margin-top: -2px;
-   background: #0056ec;
+  display: block;
+  content: "";
+  width: 25px;
+  height: 4px;
+  position: relative;
+  margin: auto;
+  top: 50%;
+  margin-top: -2px;
+  background: #0056ec;
 }
 .menu__mobile_button::after {
     display: block;
@@ -102,15 +103,16 @@ body {
     transform: translateY(8px);
     background: #0056ec;
 }
+
 .menu__mobile_button::before {
-   display: block;
-   content: "";
-   width: 25px;
-   height: 4px;
-   position: absolute;
-   margin: auto;
-   background: #0056ec;
-   transform: translateY(-8px);
+  display: block;
+  content: "";
+  width: 25px;
+  height: 4px;
+  position: absolute;
+  margin: auto;
+  background: #0056ec;
+  transform: translateY(-8px);
 }
 .main {
    padding:0 60% 100px 0;
