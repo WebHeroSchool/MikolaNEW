@@ -1,9 +1,9 @@
 body {
   margin: 0;
 }
- #chosen {
+#chosen {
   display: none;
- }
+}
  .wrapper {
   margin: auto;
   width: 80%;
@@ -44,7 +44,7 @@ body {
     opacity: 0;
     transition: opacity .5s;
  }
- .menu__item: hover {
+ .menu__item:hover {
    opacity: .5;
  }
  .menu__item_active::after {
