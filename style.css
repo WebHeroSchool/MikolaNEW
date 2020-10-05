@@ -397,7 +397,7 @@ body {
     height: 29px;
   }
   .menu__item:last-child {
-    margin-right:-29px;
+    margin-right: -29px;
   }
   .menu__mobile {
     display: none;
