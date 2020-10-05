@@ -230,8 +230,8 @@ body {
     left: -500%;
     position: absolute;
     visibility: hidden;
-    width:0px;
-    height:0px;
+    width: 0px;
+    height: 0px;
     transition-property: width, height;
     transition-duration: 0.6s;
   }
@@ -240,7 +240,7 @@ body {
     visibility: visible;
     left: 0;
     top: 0;
-    position:absolute;
+    position: absolute;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -249,17 +249,18 @@ body {
     height: 100%;
   }
   input:checked ~ .menu__mobile label .menu__mobile_button::after {
-      transition-duration: .6s;
-      transform: rotate(45deg);
+    transition-duration: 0.6s;
+    transform: rotate(45deg);
   }
   input:checked ~ .menu__mobile label .menu__mobile_button::before {
-      transition-duration: .6s;
-      transform: rotate(-45deg);
+    transition-duration: .6s;
+    transform: rotate(-45deg);
   }
   input:checked ~ .menu__mobile label .menu__mobile_button {
-      background: white;
+    background: white;
   }
 }
+
 @media (max-width:1170px) and (min-width:769px) {
   .wrapper {
     width: 91%;
