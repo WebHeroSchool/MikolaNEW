@@ -79,8 +79,7 @@ body {
   transition: opacity 0.5s;
 }
 
-.menu__item:hover::after
-.menu__item_active::after {
+.menu__item:hover::after, .menu__item_active::after {
   opacity: 1;
 }
 
@@ -424,7 +423,7 @@ body {
   .menu__mobile {
     display: none;
   }
-  
+
   .menu {
     padding-right: 2.6%;
   }
