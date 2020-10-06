@@ -78,6 +78,7 @@ body {
   opacity: 0;
   transition: opacity 0.5s;
 }
+
 .menu__item:hover::after
 .menu__item_active::after {
   opacity: 1;
@@ -174,7 +175,7 @@ body {
     text-align: center;
     margin-right: 0;
     font: normal 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
-    padding: 5% 0px 5% 0px;
+    padding: 5% 0 5% 0;
   }
 
   .wrapper {
