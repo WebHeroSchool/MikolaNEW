@@ -31,7 +31,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right:26px;
+  margin-right: 26px;
   font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -217,9 +217,11 @@ body {
     font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
     padding: 0 14%;
   }
+
   .main__button {
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
-    width: 175px; height: 14px;
+    width: 175px;
+    height: 14px;
     padding: 15px 17px;
     text-align: initial;
   }
@@ -349,7 +351,7 @@ body {
   .main__title {
     padding-top: 15px;
     margin-bottom: 38px;
-    font:normal bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
+    font: normal bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
   }
 
   .main__description {
@@ -359,7 +361,8 @@ body {
 
   .main__button {
     font: normal 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
-    width: 178px; height: 17px;
+    width: 178px;
+    height: 17px;
   }
 
   .menu__item:last-child {
@@ -419,7 +422,6 @@ body {
   .menu__mobile {
     display: none;
   }
-  
   .menu {
     padding-right: 2.6%;
   }
